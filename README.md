@@ -5,15 +5,23 @@ Para o problema se tem como variaveis os diferentes tipos de veiculo com suas re
 
 Na resolução do problema se considera uma adaptação do algorithmo de Clarke para a criação das rotas de viagem. Segue abaixo as demais considerações:
 
--As demandas tem que chegar antes dos prazos
--As capacidades não podem ser maiores que do veiculo que leva as demandas
--Se tem os diferentes tipos de veículo e custos
--Se considera a assimetria no fluxo das demandas
--Se tem fluxo zero dos veículos
--Não se tem limite de veículos
--Não se consideraram capacidades de recebimento e expedição
--Não se tem janela de tempo entre a coleta e entrega
--Não se considera o tipo de filial
+- As demandas tem que chegar antes dos prazos
+
+- As capacidades não podem ser maiores que do veiculo que leva as demandas
+
+- Se tem os diferentes tipos de veículo e custos
+
+- Se considera a assimetria no fluxo das demandas
+
+- Se tem fluxo zero dos veículos
+
+- Não se tem limite de veículos
+
+- Não se consideraram capacidades de recebimento e expedição
+
+- Não se tem janela de tempo entre a coleta e entrega
+
+- Não se considera o tipo de filial
 
 
 Dadas as premisas anteriores, foram criadas as rotas iniciais de fluxo zero considerando as demandas das diferentes filiais, o menor custo de translado sem exceder a capacidade e tomando demandas como indivisíveis. Posteriormente, se fizeram combinações de rotas para minimizar os custos de transferência.
